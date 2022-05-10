@@ -26,4 +26,4 @@ private val colors = listOf(
     Color(0xFFFF5722),
 )
 
-fun createItem(count: Int): List<Item> = (1..count).map { Item(it, colors[it % colors.size]) }
+fun createItems(count: Int): List<Item> = (1..count).map { Item(it, colors[it % colors.size]) }
